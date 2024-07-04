@@ -1,24 +1,25 @@
-manifestVersion: 1,
-id: "umbrel-raspotify",
-name: "Raspotify",
-tagline: "Turn your Raspberry Pi into a Spotify Connect device",
-icon: "https://example.com/raspotify-icon.svg",
-category: "Media",
-version: "1.0.0",
-port: 4000,
-description: "> Add your app's description here.\n> \n> You can also add newlines!\n",
-developer: "Umbrel",
-website: "https://umbrel.com",
-submitter: "Umbrel",
-submission: "https://github.com/getumbrel/umbrel-raspotify",
-repo: "https://github.com/getumbrel/umbrel-raspotify",
-support: "https://github.com/getumbrel/umbrel-raspotify/issues",
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: "Add what's new in the latest version of your app here.",
-dependencies: [],
-path: "",
-defaultUsername: "",
-defaultPassword: ""
+{
+  "manifestVersion": 1,
+  "id": "umbrel-raspotify",
+  "name": "Raspotify",
+  "tagline": "Turn your Raspberry Pi into a Spotify Connect device",
+  "icon": "https://raw.githubusercontent.com/dtcooper/raspotify/master/assets/raspotify-icon.svg",
+  "category": "Media",
+  "version": "1.0.0",
+  "port": 4000,
+  "description": "> Raspotify bridges the gap between your Raspberry Pi and Spotify Connect. It allows your Pi to appear as a Spotify Connect endpoint so you can stream audio to it from any Spotify app.",
+  "developer": "dtcooper",
+  "website": "https://github.com/dtcooper/raspotify",
+  "submitter": "Umbrel",
+  "submission": "https://github.com/getumbrel/umbrel-raspotify",
+  "repo": "https://github.com/dtcooper/raspotify",
+  "support": "https://github.com/dtcooper/raspotify/issues",
+  "gallery": [
+    "https://raw.githubusercontent.com/dtcooper/raspotify/master/assets/raspotify-screenshot.jpg"
+  ],
+  "releaseNotes": "Initial release of Raspotify on Umbrel.",
+  "dependencies": [],
+  "path": "",
+  "defaultUsername": "",
+  "defaultPassword": ""
+}
