@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "id": "umbrel-raspotify",
+  "id": "raspotify",
   "name": "Raspotify",
   "tagline": "Turn your Raspberry Pi into a Spotify Connect device",
   "icon": "https://raw.githubusercontent.com/dtcooper/raspotify/master/assets/raspotify-icon.svg",
