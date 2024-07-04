@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   raspotify:
-    image: raspotify-docker:latest
+    image: flo2104/raspotify-docker:latest
     container_name: raspotify
     network_mode: host
     restart: unless-stopped
