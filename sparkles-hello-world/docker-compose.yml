@@ -1,6 +1,6 @@
 services:
   raspotify:
-    image: piotrb/raspotify-docker:latest
+    image: flo2104/raspotify_docker:latest
     restart: unless-stopped
     network_mode: host
     environment:
