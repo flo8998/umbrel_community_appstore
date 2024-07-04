@@ -1,11 +1,15 @@
+version: '3.7'
+
 services:
   raspotify:
-    image: flo2104/raspotify_docker:latest
-    restart: unless-stopped
+    image: raspotify-docker:latest
+    container_name: raspotify
     network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./default_raspotify:/etc/default/raspotify
     environment:
-      - DEVICE_NAME=FloRaspotify
-      # Optional: Uncomment and configure if needed
-      # - BITRATE=160
-      # - OPTIONS=--username your_spotify_username --password your_spotify_password
-    volumes: []
+      - SPOTIFY_NAME=MyRaspotifyDevice
+      - SPOTIFY_BITRATE=160
+    ports:
+      - "4000:4000"
